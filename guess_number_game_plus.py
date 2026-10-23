@@ -42,13 +42,13 @@ while attempts < max_attempts:
         if attempts == 1:
            print("评价:给到夯")
         
-        if attempts <= 3:
+        elif attempts <= 3:
             print("评价:给到牛逼")
             
-        if attempts <= 5:
+        elif attempts <= 5:
             print("评价:给到666")
             
-        if attempts >5:
+        else:
             print("评价:拉完了")
         break
     
